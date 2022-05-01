@@ -1,0 +1,60 @@
+#formu{
+ 
+    text-align: center;
+}
+
+#titulo{
+
+    text-align: center;
+    font: normal 25pt Arial;
+    margin-top: 40pt;
+    margin-bottom: 40pt;
+}
+
+body{
+    background-color: rgb(171, 243, 243);
+}
+
+#sec{
+
+    background-color: rgb(52, 52, 100);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.719);
+    font: normal 18pt Arial;
+    color:aliceblue;
+    
+}
+
+.campo{
+
+    background-color: azure;
+    font: normal 12pt Arial;
+    width: 200px;
+    height: 30px;
+    margin: 8px;
+    border-radius: 15px;
+}
+
+#botao{
+    background-color: rgb(247, 156, 201);
+    width: 200px;
+    height: 40px;
+    font: normal 10pt Arial;
+    transition-duration: 1s;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#botao:hover{
+    background-color: rgb(104, 34, 69);
+    width: 300px;
+    height: 60px;
+    font: normal 10pt Arial;
+    color: azure;
+    border-radius: 15px;
+}
+
