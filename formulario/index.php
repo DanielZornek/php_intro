@@ -1,5 +1,5 @@
 <?php
-    session_start(); 
+    include "servicos/servico_inside_sec.php";
 ?>
 
 <!DOCTYPE html>
@@ -22,13 +22,13 @@
                     <form action="script.php" method="post" id="formu">
                       <?php 
 
-                        $mensagem_sucesso = isset($_SESSION['mensagem de sucesso']) ? $_SESSION['mensagem de sucesso'] : '';
+                        $mensagem_sucesso = obter_sucesso_msg();
                             if(!empty($mensagem_sucesso))
                             {
                                 echo $mensagem_sucesso;
                             }
 
-                            $mensagem_erro = isset($_SESSION['mensagem de erro']) ? $_SESSION['mensagem de erro'] : '';
+                            $mensagem_erro = obter_erro_msg();
                             if(!empty($mensagem_erro)){
                                 echo $mensagem_erro; 
                             }
